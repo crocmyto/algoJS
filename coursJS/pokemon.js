@@ -1,4 +1,4 @@
-class Pokemon {
+/*class Pokemon {
     constructor(name,attack,defense,hp,luck){
         this.name = name
         this.attack = attack
@@ -43,4 +43,4 @@ while (Pokemon1.hp >= 0 && Pokemon2.hp >= 0){
     //console.log("pokemon2 hp : "+Pokemon2.hp)
     Pokemon1.attackPokemon(Pokemon2)
     Pokemon2.attackPokemon(Pokemon1)
-}
+}*/
