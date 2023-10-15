@@ -9,7 +9,7 @@ const GenNom = () => { //Permet de définire aléatoirement des noms
 }
 
 const GenCara = () => {//Permet de définire aléatoirement des caractéristiques
-    const cara = ["Intello","Crack-Head","Dépressif","Trisomique","Paranoiaque","Schizophrene","Arabe","Pervers","Narcissique","Peureux"]//Liste des caractéristiques (10 caractéristiques)
+    const cara = ["Intello","Crack-Head","Dépressif","Trisomique","Homme-Tronc","Schizophrene","Arabe","Pervers","Narcissique","Peureux"]//Liste des caractéristiques (10 caractéristiques)
     return cara[Math.floor(Math.random() * cara.length)]//fonction pour créer une caractéristiques aléatoire
 }
 
