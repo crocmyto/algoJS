@@ -6,7 +6,6 @@ class humain{
         this.name = ["nom1","nom2","nom3","nom4","nom5","nom6","nom7"]
         this.Cara = ["cara1","cara2","car3","cara4","cara5","cara6","cara7",]
         this.JasonPV = 100
-        this.ContMort = 0
         this.ListMort = []
     }
     CreateSurv(){
@@ -31,6 +30,9 @@ class humain{
         }
     }
 }
-
-let Perso1 = new humain(0.2,0.5,0.3)
-Perso1.DmgPhase()
+let survivants = [];
+for (let i = 0; i < 5; i++) {
+    let survivant = new humain(0.3,0.5,0.2)
+    survivants.push(survivant);
+}
+console.log(survivants[0].name)
